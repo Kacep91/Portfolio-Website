@@ -11,7 +11,7 @@
 
 **/
 
-(window).on('scroll', function () {
+$(window).on('scroll', function () {
 
 	/* PARALLAX EFFECT ON HEADER */
 	$(window).scroll(function() {
