@@ -135,7 +135,7 @@ max-width: 1300px;
   -o-background-size: cover;
   background-size: cover;
   background-position: center top;
-	background-size: 270vw;
+	background-size: 290vh;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
   }
@@ -191,6 +191,7 @@ max-width: 1300px;
 	width: 30%;
 	min-width: 250px;
 	max-width: 450px;
+	justify-content: center;
 	}
 
 @media only screen and (max-width: 984px) {
@@ -214,23 +215,26 @@ max-width: 1300px;
 	width: 500px !important; 
 	overflow: hidden;
 	padding-top: 1.2em;
-	}
-	.card-size {
+}
+.card-size {
 	width: 80%;
 	min-width: 320px !important;
-	}
+	justify-content: center;
+}
 }
 
 @media only screen and (max-width: 768px) {
 	.card-size {
 	width: 80%;
-	min-width: 500px !important;
+	min-width: 300px !important;
+	justify-content: center;
 	}
 }
 
 @media only screen and (max-width: 320px) {
 	.card-size {
-		width: 80%;
-		min-width: 300px !important;
-		}
+	width: 80%;
+	min-width: 200px !important;
+	justify-content: center;
+	}
 }
