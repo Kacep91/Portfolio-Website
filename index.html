@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/an-skill-bar.css">
+  <link rel="stylesheet" type="text/css" href="./css/jquery.lightbox.css">
+
+  <!-- Custom styles for this template -->
+  <title>DAD</title>
+</head>
+
+<header>
+
+
+</header>
+
+<body>
+
+
+
+
+  <div class="container-fluid mb-2 justify-content-center align-items-center p-0">
+
+    <div class="d-flex shadow myself flex-column justify-content-center align-items-center mb-2" id="demo" data-paralasic="0.5"><!-- Personal Section Starts Here -->
+      <div class="justify-content-center mb-3"><!-- Picture -->
+        <button class='btn btn-primary ru-select mr-3 btn-lg' onclick="translateRus()">RU</button>
+        <img src="images/my-photo.png" class="img-fluid shadow mt-5 rounded-circle mobile-header alt="Aleksei Demochko">
+        <button class='btn btn-primary en-select ml-3 btn-lg' onclick="translateEng()">EN</button>
+      </div><!-- End of Picture -->
+      <div class="text-justify p-4 cont-fix-width blurred-box mb-3"><!-- Personal Info -->
+        <p id = "engMainInfo1" class="display-4 text-center">Hi, my name is Aleksei Demochko<br> and I am a Web-Developer.</p>
+        <p id = "engMainInfo2" class="h2 text-break"> I've graduated Krasnoyarsk State Pedagogical University in Siberia and can easily communicate in English, German and Russian.</p><hr><br>
+        <p id = "engMainInfo3" class="h1 text-center">Why me?</p><br>
+        <p id = "engMainInfo4" class="h2 text-break">I'm a self-taught web developer, who provides an up-to-date look at the process of UI/UX design. If you are looking for an easy-going diligent person, who is a fast learner, a team player and can naturally find a common ground
+            with any clients - you search is over.</p>
+      </div><!-- End of Personal Info -->
+    </div> <!-- Personal Section Ends Here -->
+
+
+    <div class="row d-flex flex-wrap no-gutters justify-content-around mt-3 mobile-view"><!-- Skills Section Starts Here -->
+
+      <div class="card text-black bg-light border-black mb-3 mr-3 ml-3 shadow rounded mobile" style="width: 30%; min-width: 250px; max-width: 450px;"><!-- Card 1 Starts Here -->
+        <div class="pictures-card-row d-flex flex-row flex-wrap justify-content-center mt-3">
+          <img src="assets/laptop-code-solid.svg" class="card-img-top" alt="jQuery" style="height:60px; width:60px;">
+        </div>
+
+        <div class="card-body">
+          <p id="engTitle1" class="card-title h3" align="center">MY STACK</p>
+          <div class="skillbar html">
+            <div class="filled" data-width="95%" style="width: 95%;"></div>
+            <span class="title">HTML</span>
+            <span class="percent">95%</span>
+          </div>
+
+          <div class="skillbar css">
+            <div class="filled" data-width="90%" style="width: 90%;"></div>
+            <span class="title"></i> CSS</span>
+            <span class="percent">90%</span>
+          </div>
+
+          <div class="skillbar python">
+            <div class="filled" data-width="95%" style="width: 95%;"></div>
+            <span class="title">Bootstrap 4</span>
+            <span class="percent">95%</span>
+          </div>
+
+          <div class="skillbar jquery">
+            <div class="filled" data-width="80%" style="width: 80%;"></div>
+            <span class="title">jQuery</span>
+            <span class="percent">80%</span>
+          </div>
+
+          <div class="skillbar js">
+            <div class="filled" data-width="50%" style="width: 50%;"></div>
+            <span class="title">JS</span>
+            <span class="percent">50%</span>
+          </div>
+
+          <div class="skillbar photoshop">
+            <div class="filled" data-width="40%" style="width: 40%;"></div>
+            <span class="title">Adobe PS</span>
+            <span class="percent">40%</span>
+          </div>
+
+
+        </div>
+      </div> <!-- Card 1 ends here -->
+
+
+      <div class="card text-black bg-light border-black mb-3 mr-3 ml-3 shadow rounded mobile" style="width: 30%; min-width: 250px; max-width: 450px;"><!-- Card 2 Starts Here -->
+        <div class="pictures-card-row d-flex flex-row flex-wrap justify-content-center mt-3">
+          <img src="assets/th-large-solid.svg" class="card-img-top" alt="jQuery" style="height:60px; width:60px;">
+        </div>
+        <div id="engCard2" class="card-body">
+          <p class="card-title h3" align="center">TOTALLY RESPONSIVE</p>
+          <p class="card-text">
+            <ul>
+              <li>
+                <p class="h4">Adjusts for any resolution</p>
+              </li>
+              <li>
+                <p class="h4">Easy-to-use UI</p>
+              </li>
+              <li>
+                <p class="h4">Mobile-friendly</p>
+              </li>
+              <li>
+                <p class="h4">Custom design in a very short time</p>
+              </li>
+              <li>
+                <p class="h4">Suitable for any content</p>
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div> <!-- Card ends here -->
+
+
+
+      <div class="card text-black bg-light border-black mb-3 mr-3 ml-3 shadow rounded mobile" style="width: 30%; min-width: 250px; max-width: 450px;"><!-- Card 3 Starts Here -->
+        <div class="pictures-card-row d-flex flex-row flex-wrap justify-content-center mt-3">
+          <img src="assets/cogs-solid.svg" class="card-img-top" alt="jQuery" style="height:60px; width:60px;">
+        </div>
+
+        <div id="engCard3" class="card-body">
+          <p class="card-title h3 text-responsive" align="center">QUALITY CODE</p>
+          <p class="card-text">
+            <ul>
+              <li>
+                <p class="h4 text-responsive">Commented code</p>
+              </li>
+              <li>
+                <p class="h4 text-responsive">Easy to read</p>
+              </li>
+              <li>
+                <p class="h4 text-responsive">Multi-language support</p>
+              </li>
+              <li>
+                <p class="h4 text-responsive">Obvious class/functions/variables names</p>
+              </li>
+              <li>
+                <p class="h4 text-responsive">Quick load times</p>
+              </li>
+              <li>
+                <p class="h4 text-responsive">Easy to support</p>
+              </li>
+              <li>
+                <p class="h4 text-responsive">In line with latest standards</p>
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div> <!-- Card ends here -->
+    </div> <!-- Card Deck ends here -->
+
+<!-- My Works Section Starts Here -->
+    <div class="p-3 mb-2 bg-primary text-white">
+      <p id="engGalleryTitle" class="display-4 text-center text-responsive">My works</p>
+    </div>
+<div class="container-fluid d-flex justify-content-center align-items-center flex-wrap mobile-view"><!-- Gallery (Required for JS-Gallery to work) -->
+      <ul class="gallery gallery3 nav mb-3 mt-3 mobile justify-content-center align-items-center d-flex">
+        <li class="mr-4">
+          <a href="./images/sample1.jpg" data-caption = "Website 1">
+            <img class="img-fluid works mobile-works" src="./images/thumbnail1.png">
+          </a>
+        </li>
+        <li class="mr-4">
+          <a href="./images/sample2.jpg" data-caption = "Website 2">
+            <img class="img-fluid works mobile-works" src="./images/thumbnail2.png">
+          </a>
+        </li>
+        <li class="mr-4">
+          <a href="./images/sample3.jpg" data-caption = "Website 3">
+            <img class="img-fluid works mobile-works" src="./images/thumbnail3.png">
+          </a>
+        </li>
+      </ul>
+  </div><!-- End of Gallery (Required for JS-Gallery to work) -->
+  <!-- My Works Section Ends Here -->
+</body>
+
+<footer class="bg-dark text-white text-center p-4 mobile-view">
+  <div class="row d-flex flex-row flex-wrap justify-content-center mobile-view">
+    <div class="col-md-4 nav-footer d-flex flex-row flex-wrap justify-content-center">
+      <ul class="nav justify-content-center nav-pills align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <p class="h3" id="engFooterLink1">
+              GO UP
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="assets/Demochko Aleksei Vladimirovich.pdf">
+            <p class="h3" id="engFooterLink2">
+              RESUME
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-3 d-flex flex-row flex-wrap justify-content-center align-items-center">
+      <p class="h4">
+        Copyright 2019 - Aleksei Demochko<br />
+      </p>
+    </div>
+    <div class="col-md-5 icons-info d-flex flex-column flex-wrap justify-content-center align-items-center">
+      <div class="row d-flex flex-wrap justify-content-center">
+        <p class="h4" id="engFooterContact">
+          Contact me
+        </p>
+      </div>
+      <div class="row d-flex flex-row flex-wrap justify-content-center"><!-- Footer Contact Links -->
+        <span class="fa-stack fa-2x">
+          <a href="https://twitter.com/kacepok"><i class="fas fa-square fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x fa-inverse"></i></a>
+        </span>
+        <span class="fa-stack fa-2x">
+          <a href="https://github.com/Kacep91"><i class="fas fa-square fa-stack-2x"></i><i class="fab fa-git-square fa-stack-1x fa-inverse"></i></a>
+        </span>
+        <span class="fa-stack fa-2x">
+          <a href="https://www.instagram.com/kacep/">
+            <i class="fas fa-square fa-stack-2x"></i>
+            <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+          </a>
+        </span>
+        <span class="fa-stack fa-2x">
+          <a href="mailto:pentas@mail.ru">
+            <i class="fas fa-square fa-stack-2x"></i>
+            <i class="fas fa-at fa-stack-1x fa-inverse"></i>
+          </a>
+        </span>
+        <span class="fa-stack fa-2x">
+          <a href="https://t.me/Kacep91">
+            <i class="fas fa-square fa-stack-2x"></i>
+            <i class="fab fa-telegram fa-stack-1x fa-inverse"></i>
+          </a>
+        </span>
+        <span class="fa-stack fa-2x">
+          <a href="http://vk.com/kacep">
+            <i class="fas fa-square fa-stack-2x"></i>
+            <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+          </a>
+        </span>
+      </div><!-- Footer Contact Links End -->
+    </div><!-- Contact Me Section Ends -->
+  </div> <!-- Footer-div ends here -->
+</footer>
+
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script async src="./js/paraLasic.1.1.js" type="text/javascript"></script>
+<script src="./js/simple_translate.js" type="text/javascript"></script>
+<script src="./js/jquery.lightbox.js"></script>
+
+<script>
+$(function() {
+$('.gallery a').lightbox({
+  margin: 100,
+  minSize: 480,
+  closeButtonText: 'Kapat',
+  previousButtonText: 'Önceki',
+  nextButtonText: 'Sonraki'
+});
+});
+</script>
+
+<script>
+  $(document).ready(function() {
+    $('.skillbar').skillbar({
+      speed: 2000,
+      bg: ''
+
+    });
+
+
+  });
+</script>
+
+
+</html>
