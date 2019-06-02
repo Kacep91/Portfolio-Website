@@ -65,20 +65,18 @@ h6,p {
 
 }
 
-
-@media (min-width: 840px) {
+@media (min-width: 768px) {
 	html,
 	body {
-		font-size: 10px !important;
+		font-size: 11px !important;
 	}
 
 }
 
-
 @media (min-width: 1120px) {
 	html,
 	body {
-		font-size: 11px !important;
+		font-size: 12px !important;
 	}
 }
 
@@ -88,7 +86,6 @@ h6,p {
 
 * {
     font-family: 'Roboto Slab', serif;
-
 }
 
 body {
@@ -132,7 +129,7 @@ max-width: 1300px;
 .myself {
   overflow:hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
-	url("images/background-forest.png");
+	url("images/background-forest.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -191,6 +188,11 @@ max-width: 1300px;
 	width: 150px;	
 	}
 
+	.card-size {
+	width: 30%;
+	min-width: 250px;
+	max-width: 450px;
+	}
 
 @media only screen and (max-width: 976px) {
 .mobile-view{
@@ -214,4 +216,7 @@ max-width: 1300px;
 	overflow: hidden;
 	padding-top: 1.2em;
 	}
+	.card-size {
+	min-width: 80% !important;
+		}
 }
