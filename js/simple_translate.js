@@ -21,6 +21,19 @@ var rusFooterLink2 = '<p class="h3" id="rusFooterLink2">РЕЗЮМЕ</p>'
 $("p#engFooterLink2").replaceWith(rusFooterLink2);
 var rusFooterContact = '<p class="h4" id="rusFooterContact">Свяжитесь со мной</p>'
 $("p#engFooterContact").replaceWith(rusFooterContact);
+//data-caption changing
+$("a#engImageCaption1").attr("data-caption", "");
+$("a#engImageCaption1").attr("data-caption", "Простая галерея с возможностью изменять размер изображения.");
+$("a#engImageCaption1").attr("id", "").attr("id", "rusImageCaption1"); 
+$("a#engImageCaption2").attr("data-caption", "");
+$("a#engImageCaption2").attr("data-caption", "Онлайн-магазин, написанный на React.");
+$("a#engImageCaption2").attr("id", "").attr("id", "rusImageCaption2"); 
+$("a#engImageCaption3").attr("data-caption", "");
+$("a#engImageCaption3").attr("data-caption", "Простой сайт-портфолио, написанный с использованием HTML/CSS, вертска из PSD-макета.");
+$("a#engImageCaption3").attr("id", "").attr("id", "rusImageCaption3"); 
+$("a#engImageCaption4").attr("data-caption", "");
+$("a#engImageCaption4").attr("data-caption", "Простой вебсайт, на котором можно выбрать интересующий вас автомобиль, добавить его в базу, а также загрузить из базы уже доступные машины.");
+$("a#engImageCaption4").attr("id", "").attr("id", "rusImageCaption4"); 
 }
 
 
@@ -47,4 +60,17 @@ var engFooterLink2 = '<p class="h3" id="engFooterLink2">RESUME</p>'
 $("p#rusFooterLink2").replaceWith(engFooterLink2);
 var engFooterContact = '<p class="h4" id="engFooterContact">Contact me</p>'
 $("p#rusFooterContact").replaceWith(engFooterContact);
+//data-caption changing
+$("a#rusImageCaption1").attr("data-caption", "");
+$("a#rusImageCaption1").attr("data-caption", "A simple image gallery with an adjustable size.");
+$("a#rusImageCaption1").attr("id", "").attr("id", "engImageCaption1"); 
+$("a#rusImageCaption2").attr("data-caption", "");
+$("a#rusImageCaption2").attr("data-caption", "An online-shop made with React.");
+$("a#rusImageCaption2").attr("id", "").attr("id", "engImageCaption2"); 
+$("a#rusImageCaption3").attr("data-caption", "");
+$("a#rusImageCaption3").attr("data-caption", "A typical portfolio website, HTML/CSS according to a PSD-mockup.");
+$("a#rusImageCaption3").attr("id", "").attr("id", "engImageCaption3"); 
+$("a#rusImageCaption4").attr("data-caption", "");
+$("a#rusImageCaption4").attr("data-caption", "A simple website to choose a car, add a car to a table and work with data.");
+$("a#rusImageCaption4").attr("id", "").attr("id", "engImageCaption4"); 
 }
